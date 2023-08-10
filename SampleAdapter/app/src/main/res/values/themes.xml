@@ -6,4 +6,8 @@
     </style>
 
     <style name="Theme.SampleAdapter" parent="Base.Theme.SampleAdapter" />
+    <style name="dialogAnimation" >
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_up</item>
+    </style>
 </resources>
